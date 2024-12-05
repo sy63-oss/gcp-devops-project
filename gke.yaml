@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myapp
+      app: gcp
   template:
     metadata:
       labels:
